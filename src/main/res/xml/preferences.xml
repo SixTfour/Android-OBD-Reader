@@ -12,7 +12,7 @@
             android:title="@string/pref_upload_title"
             android:visibility="gone"/>
         <EditTextPreference
-            android:defaultValue="https://graybar-telematics.graybar.com:38443/obd/"
+            android:defaultValue=""
             android:dialogTitle="@string/pref_upload_url_title"
             android:key="upload_url_preference"
             android:summary="@string/pref_upload_url_summary"
@@ -117,7 +117,7 @@
             android:title="@string/pref_reader_config_title"
             android:visibility="gone"/>
         <EditTextPreference
-            android:defaultValue="sheldon.klaus@graybar.com"
+            android:defaultValue=""
             android:dialogTitle="@string/pref_dev_email_title"
             android:key="dev_email"
             android:summary="@string/pref_dev_email_summary"
